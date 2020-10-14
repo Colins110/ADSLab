@@ -24,3 +24,7 @@ Academic是一款基于[Hugo](https://github.com/gohugoio/hugo)构建的Website 
 
     具体配置方法参见：[Academic's **documentation**](https://wowchemy.com/docs/)  
     更多Hugo配置方法参见[Hugo's **documentation**](https://gohugo.io/documentation/)
+
+## 内容生成
+* 创建课题  
+eg. `hugo new  --kind project project/分布式存储系统`
