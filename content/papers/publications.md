@@ -67,6 +67,6 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
+{{% callout note %}}
 通过 [论文过滤器]({{< ref "/publication/_index.md" >}}) 快速检索。
-{{% /alert %}}
+{{% /callout %}}
