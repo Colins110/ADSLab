@@ -2,3 +2,5 @@ github.com/Colins110/wowchemy-hugo-modules v0.29.0 h1:0PeKzXRIUFlD5OOQpfcFDXwM39
 github.com/Colins110/wowchemy-hugo-modules v4.8.0+incompatible h1:gFx5HloOb5mgjq9efOsDJzC9EWeFM14wWO8iWMj/GCc=
 github.com/Colins110/wowchemy-hugo-modules/wowchemy v0.0.0-20201016084703-9681e11cb057 h1:aZJBjwR9IrmsupNSlg1T3aGPidGaIY888ZS6MphWlxg=
 github.com/Colins110/wowchemy-hugo-modules/wowchemy v0.0.0-20201016084703-9681e11cb057/go.mod h1:eRzSNWEan5sXAUudVqF0xhSe/ucB2zv/PAMQJCsylhY=
+github.com/Colins110/wowchemy-hugo-modules/wowchemy v0.0.0-20201016120109-70c52f7a4261 h1:bg6qg5dJB/Pct5du0xQj9XL0sHL9AzRDIKYtr6wkk9M=
+github.com/Colins110/wowchemy-hugo-modules/wowchemy v0.0.0-20201016120109-70c52f7a4261/go.mod h1:eRzSNWEan5sXAUudVqF0xhSe/ucB2zv/PAMQJCsylhY=
