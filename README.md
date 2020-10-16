@@ -28,3 +28,16 @@ Academic是一款基于[Hugo](https://github.com/gohugoio/hugo)构建的Website 
 ## 内容生成
 * 创建课题  
 eg. `hugo new  --kind project project/分布式存储系统`
+
+* 创建论文  
+  1. 在google学术查找相关论文，并导入到 [Zotero](https://www.zotero.org/) 中  
+  2. 从Zotero中将论文信息导出为`*.bib`结尾的 BibTeX 格式文件  
+  3. 安装`academic`工具：
+    ```bash 
+    pip3 install -U academic
+    ```
+  4.  在项目目录下运行：
+    ```bash
+    academic import --bibtex <path_to_your/publications.bib>
+    ```
+ 
