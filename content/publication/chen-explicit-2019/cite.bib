@@ -1,0 +1,16 @@
+@article{chen_explicit_2019,
+ abstract = {Metadata performance in distributed file systems (DFS) is critical, due to the following trends: (a) the growing size of modern storage systems is expected to exceed billions of files and most files are small; (b) over half of the file accesses are metadata operations. In this work, we present SMeta, a metadata prefetching method that is seamlessly integrated into DFS for easy-of-use and significantly scales the metadata performance. Previous prefetching proposals primarily focus on mining groups of files that tend to be accessed together from the access history. Nevertheless, our study discovered that these solutions likely miss a huge number of correlated files whose co-occurrence frequency is not high enough. Unlike access correlations, we take a novel and completely different approach to explore explicit data correlations by understanding the reference relationships between files encoded in some forms of hyperlinks, which naturally exist in many applications. To embrace this new concept, SMeta explores correlations upon files are written via a light-weight pattern matching algorithm, stores correlations in the reserved extended attributes of file metadata to avoid changes in DFS APIs, and collapses multiple I/O rounds for accessing metadata of the target file and its data-correlated files into one round. A cost-efficient adaptive feedback mechanism is introduced to improve prefetching accuracy. We implemented SMeta atop of Ceph and evaluated it using synthetic and real system workloads. Compared to baselines, SMeta provides better metadata performance in terms of latency, throughput and scalability.},
+ author = {Chen, Youxu and Li, Cheng and Lv, Min and Shao, Xinyang and Li, Yongkun and Xu, Yinlong},
+ doi = {10.1109/TPDS.2019.2921760},
+ issn = {1558-2183},
+ journal = {IEEE Transactions on Parallel and Distributed Systems},
+ keywords = {access correlations, cache storage, data correlations, Data mining, Data processing, data-correlated files, DFS, distributed databases, Distributed file system, distributed file systems, Distributed management, explicit data correlations-directed metadata prefetching method, feedback, file accesses, file metadata, File systems, meta data, Metadata, metadata operations, metadata performance, modern storage systems, pattern matching, prefetching, Prefetching, Servers, SMeta, storage management, target file},
+ month = {December},
+ note = {Conference Name: IEEE Transactions on Parallel and Distributed Systems},
+ number = {12},
+ pages = {2692--2705},
+ title = {Explicit Data Correlations-Directed Metadata Prefetching Method in Distributed File Systems},
+ volume = {30},
+ year = {2019}
+}
+

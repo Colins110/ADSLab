@@ -1,0 +1,12 @@
+@inproceedings{sun_efficient_2016,
+ abstract = {It is inevitable to scale RAID systems with the increasing demand of storage capacity and I/O throughput. When scaling RAID systems, we will always need to update parity to maintain the reliability of the storage systems. There are two schemes, read-modify-write (RMW) and read-reconstruct-write (RCW), to update parity. However most existing scaling approaches simply use RMW to update parity. While in many scenarios for existing scaling approaches, RCW performs better in terms of the number of scaling I/Os. In this paper, we propose an algorithm, called EPU, to analyze which of RCW and RMW is better for a scaling scenario and select the more efficient one to save the scaling I/Os. We apply EPU to online scaling scenarios and further use two optimizations, I/O overlap and access aggregation, to enhance the online scaling performance. Using Scale-CRS, one of the existing scaling approaches, as an example, we show via numerical studies that Scale-CRS+EPU reduces the amount of scaling I/Os over the traditional Scale-CRS in many scaling cases. To justify the online efficiency of EPU, we implement both Scale-CRS+EPU and Scale-CRS in a simulator with Disksim as a working module. Through extensive experiments, we show that Scale-CRS+EPU reduces the scaling time and the online response time of user requests over Scale-CRS.},
+ author = {Sun, Dongdong and Xu, Yinlong and Li, Yongkun and Wu, Si and Tian, Chengjin},
+ booktitle = {2016 IEEE International Conference on Networking, Architecture and Storage (NAS)},
+ doi = {10.1109/NAS.2016.7549400},
+ keywords = {Disksim, Fault tolerance, Fault tolerant systems, High performance computing, input-output throughput, Layout, online scaling scenario, parity update, RAID, RAID-like storage systems, RCW scheme, read-modify-write scheme, read-reconstruct-write scheme, redundant array of independent disks, RMW scheme, scaling approach, storage capacity, storage management, Throughput, Time factors},
+ month = {August},
+ pages = {1--10},
+ title = {Efficient Parity Update for Scaling RAID-like Storage Systems},
+ year = {2016}
+}
+

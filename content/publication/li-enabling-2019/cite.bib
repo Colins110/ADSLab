@@ -1,0 +1,19 @@
+@article{li_enabling_2019,
+ abstract = {Persistent key-value (KV) stores mostly build on the Log-Structured Merge (LSM) tree for high write performance, yet the LSM-tree suffers from the inherently high I/O amplification. KV separation mitigates I/O amplification by storing only keys in the LSM-tree and values in separate storage. However, the current KV separation design remains inefficient under update-intensive workloads due to its high garbage collection (GC) overhead in value storage. We propose HashKV, which aims for high update performance atop KV separation under update-intensive workloads. HashKV uses hash-based data grouping, which deterministically maps values to storage space to make both updates and GC efficient. We further relax the restriction of such deterministic mappings via simple but useful design extensions. We extensively evaluate various design aspects of HashKV. We show that HashKV achieves 4.6× update throughput and 53.4% less write traffic compared to the current KV separation design. In addition, we demonstrate that we can integrate the design of HashKV with state-of-the-art KV stores and improve their respective performance.},
+ author = {Li, Yongkun and Chan, Helen H. W. and Lee, Patrick P. C. and Xu, Yinlong},
+ doi = {10.1145/3340287},
+ file = {Full Text PDF:C\:\\Users\o̧lin\\Zotero\\storage\\A3GW527T\Łi 等。 - 2019 - Enabling Efficient Updates in KV Storage via Hashi.pdf:application/pdf},
+ issn = {1553-3077},
+ journal = {ACM Trans. Storage},
+ keywords = {Hashing, Key-value storage, LSM-tree},
+ month = {August},
+ number = {3},
+ pages = {20:1--20:29},
+ shorttitle = {Enabling Efficient Updates in KV Storage via Hashing},
+ title = {Enabling Efficient Updates in KV Storage via Hashing: Design and Performance Evaluation},
+ url = {https://doi.org/10.1145/3340287},
+ urldate = {2020-10-16},
+ volume = {15},
+ year = {2019}
+}
+
