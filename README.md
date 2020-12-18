@@ -41,12 +41,13 @@ eg. `hugo new  --kind project project/分布式存储系统`
     academic import --bibtex <path_to_your/publications.bib>
     ```
  
-* 添加新闻
-`hugo new  --kind post detailNews/{新闻名}`
+* 添加新闻  
+`hugo new  --kind post detailNews/{新闻名}`  
 将头图命名为featured.jpg/png 放入 content/detailNews/{新闻名},编辑对应文件夹下的index.md文件，包括title，summary，date和具体内容。
 若要在主页现实新闻，则将对应新闻文件夹复制到content/homeNews而文件夹下即可
 可以参考目录下已有例子
 
-* 添加活动
-`hugo new  --kind post post/{活动名}`将头图命名为featured.jpg/png 放入 content/post/{活动名},编辑对应文件夹下的index.md文件，包括title，summary，date和具体内容。
+* 添加活动  
+`hugo new  --kind post post/{活动名}`  
+将头图命名为featured.jpg/png 放入 content/post/{活动名},编辑对应文件夹下的index.md文件，包括title，summary，date和具体内容。
 可以参考目录下已有例子
