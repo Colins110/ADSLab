@@ -18,27 +18,27 @@ subtitle:
 feature:
 - description: 专注于内存虚拟化、容器技术、内存管理等相关技术
   icon: docker
-  icon_pack: fab
+  icon_pack: custom
   name: 虚拟化技术
 - description: 主要针对1) 修复性能优化方案、2) 磁盘阵列技术、3) 扩容算法及4) 分布式容错机制等方面进行研究。
-  icon: chart-line
-  icon_pack: fas
+  icon: recovery
+  icon_pack: custom
   name: 容错与灾备
 - description: 研究基于LSM-Tree的Key-Value存储系统的读写机制，优化其在不同应用场景下的读写性能
-  icon: database
-  icon_pack: fas
+  icon: kvstore
+  icon_pack: custom
   name: KV存储
 - description: 对社交网络图等图数据的分析处理，主要包含图计算和图系统两个研究方向
-  icon: camera-retro
-  icon_pack: fas
+  icon: graph
+  icon_pack: custom
   name: 图分析
 - description: 研究分布式机器学习系统，提升分布式训练性能，主要针对分布式场景下的迭代计算流程进行优化
-  icon: brain
-  icon_pack: fas
+  icon: AI
+  icon_pack: custom
   name: 分布式机器学习
 - description: 研究分布式场景下的存储问题，主要是对于分布式存储系统、分布式文件系统的问题优化
-  icon: camera-retro
-  icon_pack: fas
+  icon: distributed
+  icon_pack: custom
   name: 分布式存储系统
 
 
