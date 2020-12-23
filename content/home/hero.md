@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "ADSLab"
+title = "先进数据系统实验室"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 # hero_media = "hero-background.png"
