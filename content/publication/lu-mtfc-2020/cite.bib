@@ -1,0 +1,14 @@
+@article{lu_mtfc_2020,
+ abstract = {Hyperspectral images (HSI) classification has been a research hotspot in the remote sensing field. Deep learning methods such as Cube-CNN have been applied to address the HSI classification problem. However, mainstream frameworks exist a performance gap to train Cube-CNN, since they are not designed for processing high dimensional data like HSI. To close this gap, we propose a Multi-GPU Training Framework (MTFC) for Cube-CNN-based HSI classification. We first design a Parallel Neighbor Pixel Extraction (PNPE) algorithm for efficiently generating 3-dimensional cube samples from raw data. Then, to fully exploit massive GPU parallelism and realize unique characteristics of HSI and Cube-CNN, we employ optimizations in MTFC such as task division, fine-grained mapping between tasks and GPU thread blocks, shared memory usage reduction, etc. Finally, to further improve training speed, we take advantage of CUDA streams and multiple GPUs to train a mini-batches of data samples simultaneously. An extensive set of experiments highlights that MTFC constantly outperforms the two baselines Caffe and Theano for all measured metrics across all system configurations, while offering the same level of classification accuracy. The speedup is up to 3.6x when using a single GPU and MTFC can achieve a rough linear scaling on multiple GPUs.},
+ author = {Lu, Y. and Xie, K. and Xu, G. and Dong, H. and Li, C. and Li, T.},
+ doi = {10.1109/TETC.2020.3016978},
+ issn = {2168-6750},
+ journal = {IEEE Transactions on Emerging Topics in Computing},
+ keywords = {Graphics processing units, Training, Computation-to-GPU Mapping Mechanism, Cube-CNN, Data mining, Feature extraction, Hyperspectral Image Classification, Hyperspectral imaging, Machine learning, Multi Streams, Multi-GPUs, Task analysis},
+ note = {Conference Name: IEEE Transactions on Emerging Topics in Computing},
+ pages = {1--1},
+ shorttitle = {MTFC},
+ title = {MTFC: A Multi-GPU Training Framework for Cube-CNN-based Hyperspectral Image Classification},
+ year = {2020}
+}
+

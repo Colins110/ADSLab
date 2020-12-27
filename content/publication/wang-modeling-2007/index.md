@@ -1,0 +1,80 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: Modeling path capacity in multi-hop IEEE 802.11 networks for QoS services
+subtitle: ''
+summary: ''
+authors:
+- K. Wang
+- F. Yang
+- Q. Zhang
+- Y. Xu
+tags:
+- '"Bandwidth"'
+- '"Computer science"'
+- '"quality of service"'
+- '"Interference"'
+- '"telecommunication traffic"'
+- '"Wireless mesh networks"'
+- '"Analytical models"'
+- '"Spread spectrum communication"'
+- '"Telecommunication traffic"'
+- '"wireless LAN"'
+- '"channel capacity"'
+- '"Communication system traffic control"'
+- '"contention-based behavior"'
+- '"data communication"'
+- '"free channel time"'
+- '"modeling path capacity"'
+- '"multihop IEEE 801.11 networks"'
+- '"network topology"'
+- '"network traffic"'
+- '"QoS services"'
+- '"QoS-sensitive traffic"'
+- '"Streaming media"'
+- '"telecommunication network topology"'
+- '"Traffic control"'
+- '"wireless link"'
+categories: []
+date: '2007-02-01'
+lastmod: 2020-12-27T11:32:03+08:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2020-12-27T03:32:03.734189Z'
+publication_types:
+- '2'
+abstract: 'QoS provisioning in multi-hop IEEE 802.11 networks is very challenging
+  due to the interference nature of wireless medium and the contention-based behavior
+  among neighboring nodes. In such networks, one of the key questions for QoS support
+  is: given a specific topology and traffic condition, how much bandwidth can be utilized
+  along a path in the network without violating QoS demand of existing traffic? Considering
+  that in general QoS-sensitive traffic has the well-controlled sending rate, one
+  key observation is that the network unsaturated condition should be considered.
+  Another observation is that, not only the interaction between the new traffic and
+  the existing ones that can be sensed (by the new one), but also the interaction
+  between the new traffic and the traffic that is hidden but can have influence upon
+  the new one should be studied. Based upon the above observations, we propose an
+  analytical model for multi-hop IEEE 802.11 networks to calculate how much bandwidth
+  can be utilized along a path without violating the QoS requirements of existing
+  traffic. A notion, \"free channel time\", which is the time allowed for a wireless
+  link to transmit data, is introduced to analyze the path capacity. Simulation results
+  demonstrate that our proposed analytical model can accurately predict the path capacity
+  under various network conditions without breaking QoS demands of all existing traffic'
+publication: '*IEEE Transactions on Wireless Communications*'
+doi: 10.1109/TWC.2007.05434
+---
