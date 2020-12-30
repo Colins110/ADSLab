@@ -21,7 +21,9 @@ subtitle = ""
                  "Alumni",
                  "教师们",
                  "博士研究生",
-                 "硕士研究生"]
+                 "硕士研究生",
+		 "大四保研",
+		 "已毕业成员"]
 
 [design]
   # Show user's social networking links? (true/false)
